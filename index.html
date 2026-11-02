@@ -1,0 +1,1263 @@
+cd /home/ubuntu/workspace && cat > olasco.html <<'HTMLEOF'
+<!DOCTYPE html>
+<html lang="en-NG">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Olasco Dealership Lagos Nig | Quality Cars, Sourcing, Importation & Inspections</title>
+<meta name="description" content="Olasco Dealership Lagos Nig — quality cars, vehicle sourcing, importation enquiries, trade-ins, and vehicle inspections. Auto Deals. Drive with Trust. Chat on WhatsApp." />
+<meta name="keywords" content="Olasco Dealership Lagos Nig, quality cars in Lagos, vehicle sourcing in Lagos, car importation services, car trade-in services, vehicle inspection services, auto deals in Lagos" />
+<meta property="og:title" content="Olasco Dealership Lagos Nig" />
+<meta property="og:description" content="Quality cars, vehicle sourcing, importation, trade-ins and vehicle inspections. Auto Deals. Drive with Trust." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": "Olasco Dealership Lagos Nig",
+  "slogan": "Auto Deals. Drive with Trust.",
+  "description": "Olasco Dealership Lagos Nig helps you explore quality cars, source preferred vehicles, enquire about importation, trade in your current car, and discuss vehicle inspection services.",
+  "telephone": "+2349131502531",
+  "areaServed": "Lagos, Nigeria"
+}
+</script>
+<style>
+  :root{
+    --ink:#0A0A0A; --charcoal:#1C1C1E; --slate:#2A2A2E;
+    --gold:#C8A24A; --gold-light:#E3C87A; --gold-dark:#9E7B2F;
+    --mist:#F5F4F1; --white:#fff;
+    --radius:18px; --max:1180px;
+    --shadow-card:0 18px 50px -20px rgba(0,0,0,.35);
+    --shadow-gold:0 10px 40px -12px rgba(200,162,74,.45);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;scroll-padding-top:88px}
+  body{
+    font-family:'Inter',system-ui,sans-serif;color:var(--charcoal);background:var(--white);
+    -webkit-font-smoothing:antialiased;line-height:1.6;
+  }
+  h1,h2,h3,.display{font-family:'Playfair Display',Georgia,serif;line-height:1.1;letter-spacing:-.01em}
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  button{font-family:inherit;cursor:pointer;border:none;background:none}
+  ::selection{background:var(--gold);color:var(--ink)}
+  ::-webkit-scrollbar{width:10px;height:10px}
+  ::-webkit-scrollbar-track{background:var(--ink)}
+  ::-webkit-scrollbar-thumb{background:#3a3a3e;border-radius:999px}
+  ::-webkit-scrollbar-thumb:hover{background:var(--gold)}
+  :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+  .section{padding:88px 0}
+  @media(min-width:768px){.section{padding:110px 0}}
+  .eyebrow{font-size:11px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-dark)}
+  .display-xl{font-size:clamp(2.2rem,6vw,4rem);font-weight:700}
+  .display-lg{font-size:clamp(1.8rem,4.2vw,3rem);font-weight:600}
+  .display-md{font-size:clamp(1.4rem,3vw,2rem);font-weight:600}
+  .lead{color:#4a4a4a;font-size:clamp(.95rem,1.6vw,1.05rem)}
+
+  /* Buttons */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;border-radius:999px;
+    padding:14px 28px;font-size:14px;font-weight:600;letter-spacing:.01em;transition:all .3s ease;
+    white-space:nowrap}
+  .btn:active{transform:scale(.98)}
+  .btn-gold{background:var(--gold);color:var(--ink)}
+  .btn-gold:hover{background:var(--gold-light);box-shadow:var(--shadow-gold)}
+  .btn-dark{background:var(--ink);color:#fff}
+  .btn-dark:hover{background:var(--charcoal)}
+  .btn-outline{border:1px solid rgba(255,255,255,.3);color:#fff}
+  .btn-outline:hover{border-color:var(--gold);color:var(--gold)}
+  .btn-outline-dark{border:1px solid rgba(10,10,10,.2);color:var(--ink)}
+  .btn-outline-dark:hover{border-color:var(--gold);color:var(--gold-dark)}
+  .btn-wa{background:#25D366;color:#fff}
+  .btn-wa:hover{background:#1ebe5b}
+  .btn-sm{padding:10px 18px;font-size:12.5px}
+
+  /* Navbar */
+  header.nav{position:sticky;top:0;z-index:50;background:var(--ink);transition:box-shadow .3s,background .3s}
+  header.nav.scrolled{background:rgba(10,10,10,.96);box-shadow:0 8px 30px -10px rgba(0,0,0,.6);backdrop-filter:blur(10px)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:72px;gap:16px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand-mark{width:40px;height:40px;display:grid;place-items:center;border-radius:10px;
+    border:1px solid rgba(200,162,74,.6);background:rgba(200,162,74,.1);color:var(--gold);
+    font-family:'Playfair Display',serif;font-weight:700;font-size:18px;transition:all .3s}
+  .brand:hover .brand-mark{background:var(--gold);color:var(--ink)}
+  .brand-text{display:flex;flex-direction:column;line-height:1}
+  .brand-text b{font-family:'Playfair Display',serif;color:#fff;font-size:18px;letter-spacing:.02em}
+  .brand-text small{font-size:9.5px;letter-spacing:.3em;text-transform:uppercase;color:rgba(200,162,74,.9);margin-top:4px}
+  .nav-links{display:none;align-items:center;gap:24px;list-style:none}
+  .nav-links a{font-size:13px;font-weight:500;color:rgba(255,255,255,.8);transition:color .2s}
+  .nav-links a:hover{color:var(--gold)}
+  .nav-actions{display:none;align-items:center;gap:12px}
+  @media(min-width:1100px){.nav-links{display:flex}}
+  @media(min-width:768px){.nav-actions{display:flex}}
+  .hamburger{display:grid;place-items:center;width:44px;height:44px;color:#fff;z-index:60}
+  @media(min-width:768px){.hamburger{display:none}}
+  .hamburger span{display:block;width:24px;height:2px;background:currentColor;border-radius:2px;margin:3px 0;transition:all .3s}
+  .hamburger.open span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+  .hamburger.open span:nth-child(2){opacity:0}
+  .hamburger.open span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+  .mobile-menu{position:fixed;inset:72px 0 0 0;z-index:40;background:var(--ink);
+    transform:translateX(100%);transition:transform .35s ease;overflow-y:auto}
+  .mobile-menu.open{transform:translateX(0)}
+  @media(min-width:768px){.mobile-menu{display:none}}
+  .mobile-menu .wrap{display:flex;flex-direction:column;padding-top:24px;padding-bottom:40px}
+  .mobile-menu a.m-link{border-bottom:1px solid rgba(255,255,255,.1);padding:16px 0;
+    font-family:'Playfair Display',serif;font-size:20px;color:rgba(255,255,255,.9);transition:color .2s}
+  .mobile-menu a.m-link:hover{color:var(--gold)}
+  .mobile-cta{margin-top:24px;display:flex;flex-direction:column;gap:12px}
+
+  /* Hero */
+  .hero{position:relative;min-height:92vh;display:flex;align-items:center;color:#fff;overflow:hidden}
+  .hero-bg{position:absolute;inset:0;z-index:0}
+  .hero-bg img{width:100%;height:100%;object-fit:cover}
+  .hero-bg::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(105deg,rgba(5,5,5,.94) 0%,rgba(5,5,5,.78) 45%,rgba(5,5,5,.35) 100%)}
+  .hero .wrap{position:relative;z-index:1;padding-top:70px;padding-bottom:70px;max-width:var(--max)}
+  .hero .eyebrow{color:var(--gold-light)}
+  .hero h1{margin:18px 0 20px;max-width:16ch}
+  .hero h1 .gold{color:var(--gold)}
+  .hero .support{font-family:'Playfair Display',serif;font-size:clamp(1.1rem,2.4vw,1.6rem);
+    color:rgba(255,255,255,.92);margin-bottom:18px;max-width:30ch}
+  .hero .desc{max-width:54ch;color:rgba(255,255,255,.78);margin-bottom:32px;font-size:15px}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:36px}
+  .tagline-badge{display:inline-flex;align-items:center;gap:10px;padding:10px 18px;
+    border:1px solid rgba(200,162,74,.4);border-radius:999px;background:rgba(200,162,74,.08)}
+  .tagline-badge span{font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-light)}
+  .tagline-badge .dot{width:7px;height:7px;border-radius:50%;background:var(--gold)}
+
+  /* Section headings */
+  .sec-head{max-width:640px;margin-bottom:48px}
+  .sec-head h2{margin:12px 0 14px}
+  .sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+
+  /* Category cards */
+  .grid-cats{display:grid;gap:22px;grid-template-columns:1fr}
+  @media(min-width:640px){.grid-cats{grid-template-columns:repeat(2,1fr)}}
+  @media(min-width:1024px){.grid-cats{grid-template-columns:repeat(3,1fr)}}
+  .cat-card{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/3;
+    color:#fff;display:flex;align-items:flex-end;box-shadow:var(--shadow-card);isolation:isolate}
+  .cat-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;
+    transition:transform .7s cubic-bezier(.22,1,.36,1)}
+  .cat-card::after{content:"";position:absolute;inset:0;z-index:-1;
+    background:linear-gradient(180deg,rgba(0,0,0,.05) 0%,rgba(0,0,0,.35) 55%,rgba(0,0,0,.85) 100%)}
+  .cat-card:hover img{transform:scale(1.07)}
+  .cat-body{padding:24px;position:relative;z-index:1;width:100%}
+  .cat-body h3{font-size:1.35rem;margin-bottom:6px}
+  .cat-body p{font-size:13px;color:rgba(255,255,255,.8);margin-bottom:14px}
+  .cat-link{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;
+    letter-spacing:.05em;text-transform:uppercase;color:var(--gold-light)}
+  .cat-link::after{content:"→";transition:transform .25s}
+  .cat-card:hover .cat-link::after{transform:translateX(4px)}
+
+  /* Inventory */
+  .inv-toolbar{display:grid;gap:14px;margin-bottom:32px;
+    grid-template-columns:1fr;padding:22px;border-radius:var(--radius);
+    background:var(--mist);border:1px solid rgba(10,10,10,.06)}
+  @media(min-width:640px){.inv-toolbar{grid-template-columns:1fr 1fr}}
+  @media(min-width:1024px){.inv-toolbar{grid-template-columns:2fr 1fr 1fr 1fr 1fr}}
+  .field-group{display:flex;flex-direction:column}
+  .field-group label{font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+    color:rgba(10,10,10,.55);margin-bottom:6px}
+  .field, .inv-toolbar select, .inv-toolbar input{
+    width:100%;padding:12px 14px;border-radius:12px;border:1px solid rgba(10,10,10,.15);
+    background:#fff;font-size:14px;color:var(--ink);font-family:inherit;transition:all .2s}
+  .field:focus, .inv-toolbar select:focus, .inv-toolbar input:focus{
+    outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(200,162,74,.22)}
+
+  .inv-grid{display:grid;gap:24px;grid-template-columns:1fr}
+  @media(min-width:640px){.inv-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(min-width:1024px){.inv-grid{grid-template-columns:repeat(3,1fr)}}
+
+  .vehicle{background:#fff;border-radius:var(--radius);overflow:hidden;
+    box-shadow:0 4px 18px -6px rgba(0,0,0,.12);border:1px solid rgba(10,10,10,.06);
+    display:flex;flex-direction:column;transition:transform .35s,box-shadow .35s}
+  .vehicle:hover{transform:translateY(-6px);box-shadow:var(--shadow-card)}
+  .vehicle .thumb{position:relative;aspect-ratio:16/10;overflow:hidden;background:#e8e6e1}
+  .vehicle .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+  .vehicle:hover .thumb img{transform:scale(1.05)}
+  .badges{position:absolute;top:12px;left:12px;display:flex;flex-wrap:wrap;gap:6px}
+  .badge{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    padding:5px 9px;border-radius:6px}
+  .badge-demo{background:rgba(200,162,74,.95);color:var(--ink)}
+  .badge-cond{background:rgba(10,10,10,.85);color:#fff}
+  .badge-unavail{position:absolute;top:12px;right:12px;background:rgba(180,40,40,.92);color:#fff}
+  .v-body{padding:20px;display:flex;flex-direction:column;gap:12px;flex:1}
+  .v-title{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:600;line-height:1.25}
+  .v-cat{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dark)}
+  .specs{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:12.5px;color:#555}
+  .specs span{display:flex;align-items:center;gap:6px}
+  .specs b{color:var(--ink);font-weight:600}
+  .v-price{font-size:1.1rem;font-weight:700;color:var(--ink);margin-top:2px}
+  .v-price small{font-size:11px;font-weight:500;color:#777;display:block;letter-spacing:.04em}
+  .v-actions{display:flex;gap:8px;margin-top:auto;padding-top:8px}
+  .v-actions .btn{flex:1;padding:11px 12px;font-size:12.5px}
+  .empty-state{grid-column:1/-1;text-align:center;padding:60px 24px;border-radius:var(--radius);
+    background:var(--mist);border:1px dashed rgba(10,10,10,.15)}
+  .empty-state h3{font-family:'Playfair Display',serif;font-size:1.5rem;margin-bottom:10px}
+  .empty-state p{color:#666;margin-bottom:22px;max-width:46ch;margin-left:auto;margin-right:auto}
+
+  /* Service blocks */
+  .service{display:grid;gap:40px;grid-template-columns:1fr;align-items:center;
+    padding:56px 0;border-top:1px solid rgba(10,10,10,.08)}
+  .service:first-child{border-top:none;padding-top:0}
+  .service:last-child{padding-bottom:0}
+  @media(min-width:900px){
+    .service{grid-template-columns:1fr 1fr;gap:64px}
+    .service.flip .svc-media{order:2}
+  }
+  .svc-media{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/3;
+    box-shadow:var(--shadow-card)}
+  .svc-media img{width:100%;height:100%;object-fit:cover;transition:transform .8s}
+  .service:hover .svc-media img{transform:scale(1.04)}
+  .svc-body h3{margin:10px 0 16px;font-size:clamp(1.4rem,3vw,2rem);font-weight:600}
+  .svc-body p{color:#555;margin-bottom:20px}
+  .svc-body .btn{margin-top:4px}
+
+  /* Why / values */
+  .why{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+  .why::before{content:"";position:absolute;top:-120px;right:-120px;width:420px;height:420px;
+    border-radius:50%;background:radial-gradient(circle,rgba(200,162,74,.18),transparent 70%)}
+  .why .wrap{position:relative;z-index:1}
+  .why .eyebrow{color:var(--gold-light)}
+  .why h2{color:#fff;margin:12px 0 14px;max-width:20ch}
+  .why .lead{color:rgba(255,255,255,.72);max-width:58ch;margin-bottom:48px}
+  .values{display:grid;gap:20px;grid-template-columns:1fr}
+  @media(min-width:640px){.values{grid-template-columns:repeat(2,1fr)}}
+  @media(min-width:1024px){.values{grid-template-columns:repeat(3,1fr)}}
+  .value{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);
+    border-radius:var(--radius);padding:28px 24px;transition:all .35s}
+  .value:hover{background:rgba(200,162,74,.08);border-color:rgba(200,162,74,.35);transform:translateY(-4px)}
+  .value .ico{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;
+    background:rgba(200,162,74,.14);color:var(--gold);margin-bottom:16px}
+  .value h3{font-family:'Playfair Display',serif;font-size:1.15rem;margin-bottom:8px;color:#fff}
+  .value p{font-size:13.5px;color:rgba(255,255,255,.62)}
+
+  /* How it works */
+  .steps{display:grid;gap:24px;grid-template-columns:1fr;counter-reset:step}
+  @media(min-width:900px){.steps{grid-template-columns:repeat(4,1fr);gap:20px}}
+  .step{position:relative;padding:32px 24px;border-radius:var(--radius);
+    background:var(--mist);border:1px solid rgba(10,10,10,.06)}
+  .step .num{font-family:'Playfair Display',serif;font-size:2.6rem;font-weight:700;
+    color:rgba(200,162,74,.35);line-height:1;margin-bottom:14px}
+  .step h3{font-size:1.05rem;margin-bottom:8px}
+  .step p{font-size:13.5px;color:#666}
+  @media(min-width:900px){
+    .step:not(:last-child)::after{content:"→";position:absolute;right:-14px;top:50%;
+      transform:translateY(-50%);color:var(--gold);font-size:20px;z-index:2}
+  }
+
+  /* Enquiry / forms */
+  .enq{background:var(--mist)}
+  .form-card{background:#fff;border-radius:var(--radius);padding:32px 24px;
+    box-shadow:var(--shadow-card);border:1px solid rgba(10,10,10,.05);max-width:760px;margin:0 auto}
+  @media(min-width:640px){.form-card{padding:40px}}
+  .form-grid{display:grid;gap:16px;grid-template-columns:1fr}
+  @media(min-width:640px){.form-grid{grid-template-columns:1fr 1fr}}
+  .form-grid .full{grid-column:1/-1}
+  .form-grid textarea{resize:vertical;min-height:100px}
+  .form-note{font-size:12px;color:#777;margin-top:12px;text-align:center}
+  .form-success{display:none;padding:16px;border-radius:12px;background:rgba(37,211,102,.12);
+    color:#157a3d;font-size:13.5px;margin-top:16px;border:1px solid rgba(37,211,102,.3)}
+  .form-success.show{display:block}
+  .error-text{font-size:11.5px;color:#c0392b;margin-top:4px;display:none}
+  .invalid .field, .invalid select, .invalid textarea{border-color:#c0392b !important;box-shadow:0 0 0 3px rgba(192,57,43,.12) !important}
+  .invalid .error-text{display:block}
+
+  /* Testimonials placeholder */
+  .reviews-empty{max-width:640px;margin:0 auto;text-align:center;padding:56px 32px;
+    border:1px dashed rgba(10,10,10,.15);border-radius:var(--radius);background:#fff}
+  .reviews-empty .stars{display:flex;justify-content:center;gap:6px;color:rgba(200,162,74,.4);margin-bottom:18px}
+  .reviews-empty h3{font-family:'Playfair Display',serif;font-size:1.4rem;margin-bottom:10px}
+  .reviews-empty p{color:#666;font-size:14px;margin-bottom:6px}
+
+  /* FAQ */
+  .faq-item{border-bottom:1px solid rgba(10,10,10,.1)}
+  .faq-q{width:100%;display:flex;align-items:center;justify-content:space-between;gap:16px;
+    padding:22px 4px;text-align:left;font-weight:600;font-size:15px;color:var(--ink);transition:color .2s}
+  .faq-q:hover{color:var(--gold-dark)}
+  .faq-icon{flex-shrink:0;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;
+    background:var(--mist);color:var(--ink);transition:all .3s;font-size:16px;font-weight:400}
+  .faq-item.open .faq-icon{background:var(--gold);color:var(--ink);transform:rotate(45deg)}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease}
+  .faq-a p{padding:0 4px 22px;color:#666;font-size:14px;max-width:70ch}
+
+  /* Contact */
+  .contact{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+  .contact::before{content:"";position:absolute;bottom:-160px;left:-160px;width:500px;height:500px;
+    border-radius:50%;background:radial-gradient(circle,rgba(200,162,74,.15),transparent 70%)}
+  .contact .wrap{position:relative;z-index:1}
+  .contact-grid{display:grid;gap:40px;grid-template-columns:1fr}
+  @media(min-width:900px){.contact-grid{grid-template-columns:1.2fr 1fr;gap:64px;align-items:center}}
+  .contact .eyebrow{color:var(--gold-light)}
+  .contact h2{color:#fff;margin:12px 0 16px}
+  .contact .lead{color:rgba(255,255,255,.72)}
+  .contact-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);
+    border-radius:var(--radius);padding:32px 28px}
+  .contact-card .row{display:flex;justify-content:space-between;gap:16px;padding:14px 0;
+    border-bottom:1px solid rgba(255,255,255,.08);font-size:14px}
+  .contact-card .row:last-of-type{border-bottom:none}
+  .contact-card .row .k{color:rgba(255,255,255,.55);font-size:12px;text-transform:uppercase;letter-spacing:.1em}
+  .contact-card .row .v{color:#fff;font-weight:600;text-align:right}
+  .contact-card .btn{margin-top:20px;width:100%}
+
+  /* Footer */
+  footer{background:#050505;color:rgba(255,255,255,.65);padding:64px 0 0}
+  .foot-grid{display:grid;gap:40px;grid-template-columns:1fr;padding-bottom:48px}
+  @media(min-width:640px){.foot-grid{grid-template-columns:1fr 1fr}}
+  @media(min-width:1024px){.foot-grid{grid-template-columns:1.6fr 1fr 1fr 1fr}}
+  footer h4{font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:18px}
+  footer ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+  footer ul a{font-size:13.5px;transition:color .2s}
+  footer ul a:hover{color:#fff}
+  .foot-about p{font-size:13.5px;line-height:1.7;margin-top:18px;max-width:32ch}
+  .foot-wa{display:inline-flex;align-items:center;gap:8px;margin-top:20px;padding:10px 16px;
+    border-radius:999px;background:rgba(37,211,102,.15);color:#25D366;font-size:13px;
+    font-weight:600;transition:background .2s}
+  .foot-wa:hover{background:rgba(37,211,102,.25)}
+  .foot-bottom{border-top:1px solid rgba(255,255,255,.08);padding:22px 0;
+    display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;
+    font-size:12px;color:rgba(255,255,255,.4)}
+  .foot-bottom a{transition:color .2s}
+  .foot-bottom a:hover{color:var(--gold)}
+
+  /* Floating WhatsApp */
+  .float-wa{position:fixed;bottom:20px;right:20px;z-index:50;display:flex;align-items:center;gap:10px;
+    padding:14px 18px;border-radius:999px;background:#25D366;color:#fff;font-size:14px;font-weight:600;
+    box-shadow:0 12px 32px -8px rgba(0,0,0,.4);transition:all .5s cubic-bezier(.22,1,.36,1);
+    transform:translateY(120px);opacity:0}
+  .float-wa.show{transform:translateY(0);opacity:1}
+  .float-wa:hover{transform:translateY(-3px) scale(1.03);background:#1ebe5b}
+  .float-wa .ping{position:absolute;top:-3px;right:-3px;width:12px;height:12px;border-radius:50%;
+    background:var(--gold);animation:ping 1.6s cubic-bezier(0,0,.2,1) infinite}
+  .float-wa .txt{display:none}
+  @media(min-width:640px){.float-wa .txt{display:inline}}
+  @keyframes ping{0%{transform:scale(1);opacity:1}80%,100%{transform:scale(2);opacity:0}}
+
+  /* Vehicle modal */
+  .modal{position:fixed;inset:0;z-index:80;display:none;align-items:center;justify-content:center;
+    padding:20px;background:rgba(0,0,0,.75);backdrop-filter:blur(6px)}
+  .modal.open{display:flex;animation:fade .3s ease}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  .modal-box{background:#fff;border-radius:var(--radius);max-width:820px;width:100%;max-height:92vh;
+    overflow-y:auto;position:relative;animation:pop .35s cubic-bezier(.22,1,.36,1)}
+  @keyframes pop{from{transform:translateY(24px) scale(.97);opacity:0}to{transform:none;opacity:1}}
+  .modal-close{position:absolute;top:14px;right:14px;z-index:2;width:38px;height:38px;
+    border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;
+    font-size:22px;line-height:1;color:#111;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+  .modal-close:hover{background:#fff}
+  .gallery-main{aspect-ratio:16/9;background:#111;overflow:hidden;border-radius:var(--radius) var(--radius) 0 0}
+  .gallery-main img{width:100%;height:100%;object-fit:cover}
+  .gallery-thumbs{display:flex;gap:8px;padding:12px 20px 0;overflow-x:auto}
+  .gallery-thumbs img{width:72px;height:52px;object-fit:cover;border-radius:8px;cursor:pointer;
+    opacity:.6;transition:opacity .2s;flex-shrink:0;border:2px solid transparent}
+  .gallery-thumbs img.active,.gallery-thumbs img:hover{opacity:1;border-color:var(--gold)}
+  .modal-body{padding:24px 28px 32px}
+  .modal-body .badges{position:static;margin-bottom:10px}
+  .modal-body h3{font-family:'Playfair Display',serif;font-size:1.7rem;margin-bottom:6px}
+  .modal-body .cat{font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--gold-dark);margin-bottom:16px;display:block}
+  .modal-specs{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0;
+    padding:20px;border-radius:12px;background:var(--mist);font-size:13.5px}
+  .modal-specs div{display:flex;justify-content:space-between;gap:12px}
+  .modal-specs .k{color:#777}
+  .modal-specs .v{font-weight:600;color:var(--ink)}
+  .modal-price{font-size:1.5rem;font-weight:700;margin-bottom:18px}
+  .modal-price small{font-size:12px;font-weight:500;color:#777;display:block}
+  .modal-actions{display:flex;flex-wrap:wrap;gap:10px}
+  .modal-actions .btn{flex:1;min-width:160px}
+
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1)}
+  .reveal.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;transition:none}
+    html{scroll-behavior:auto}
+    .float-wa .ping{animation:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav" id="navbar">
+  <div class="wrap nav-inner">
+    <a href="#home" class="brand" aria-label="Olasco Dealership home">
+      <span class="brand-mark">O</span>
+      <span class="brand-text"><b>OLASCO</b><small>Dealership</small></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#inventory">Available Cars</a></li>
+      <li><a href="#sourcing">Vehicle Sourcing</a></li>
+      <li><a href="#importation">Importation</a></li>
+      <li><a href="#tradein">Trade-ins</a></li>
+      <li><a href="#inspection">Inspections</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="#inventory" class="btn btn-gold btn-sm">Explore Cars</a>
+      <a href="https://wa.me/2349131502531?text=Hello%20Olasco%20Dealership%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20enquire%20about%20your%20automotive%20services."
+         target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" aria-label="Chat on WhatsApp">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="wrap">
+      <a href="#home" class="m-link">Home</a>
+      <a href="#inventory" class="m-link">Available Cars</a>
+      <a href="#sourcing" class="m-link">Vehicle Sourcing</a>
+      <a href="#importation" class="m-link">Importation</a>
+      <a href="#tradein" class="m-link">Trade-ins</a>
+      <a href="#inspection" class="m-link">Inspections</a>
+      <a href="#about" class="m-link">About Us</a>
+      <a href="#contact" class="m-link">Contact</a>
+      <div class="mobile-cta">
+        <a href="#inventory" class="btn btn-gold">Explore Cars</a>
+        <a href="https://wa.me/2349131502531?text=Hello%20Olasco%20Dealership%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20enquire%20about%20your%20automotive%20services."
+           target="_blank" rel="noopener noreferrer" class="btn btn-wa">Chat on WhatsApp</a>
+        <p style="text-align:center;color:rgba(255,255,255,.5);font-size:12px;margin-top:8px">09131502531</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80"
+         alt="Luxury automotive photography — premium car on the road" fetchpriority="high" />
+  </div>
+  <div class="wrap">
+    <span class="eyebrow">Olasco Dealership Lagos Nig</span>
+    <h1 class="display-xl">Quality Cars.<br /><span class="gold">Trusted Auto Deals.</span></h1>
+    <p class="support">Your Trusted Partner in Finding the Right Ride.</p>
+    <p class="desc">At Olasco Dealership Lagos Nig, we help you explore quality cars, source your preferred vehicles, enquire about importation, trade in your current car, and discuss vehicle inspection services. Our goal is to make your automotive journey straightforward, professional, and convenient.</p>
+    <div class="hero-ctas">
+      <a href="#inventory" class="btn btn-gold">Explore Available Cars</a>
+      <a href="https://wa.me/2349131502531?text=Hello%20Olasco%20Dealership%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20enquire%20about%20your%20automotive%20services."
+         target="_blank" rel="noopener noreferrer" class="btn btn-wa">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Chat with Us on WhatsApp
+      </a>
+    </div>
+    <div class="tagline-badge"><span class="dot"></span><span>Auto Deals. Drive with Trust.</span></div>
+  </div>
+</section>
+
+<!-- ============ CATEGORIES ============ -->
+<section class="section" id="categories">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Discover</span>
+      <h2 class="display-lg">Discover Your Next Ride</h2>
+      <p class="lead">Browse by category to explore the kinds of vehicles we help customers find. Category imagery is illustrative and does not confirm current stock availability.</p>
+    </div>
+    <div class="grid-cats" id="catGrid"></div>
+  </div>
+</section>
+
+<!-- ============ INVENTORY ============ -->
+<section class="section" id="inventory" style="background:var(--mist)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Collection</span>
+      <h2 class="display-lg">Explore Our Vehicle Collection</h2>
+      <p class="lead">Search, filter, and enquire about vehicles. Listings marked <strong>Demonstration</strong> are placeholders for development preview only and must be replaced with real inventory before publishing.</p>
+    </div>
+
+    <div class="inv-toolbar" role="search" aria-label="Filter vehicles">
+      <div class="field-group">
+        <label for="searchInput">Search make or model</label>
+        <input type="text" id="searchInput" class="field" placeholder="e.g. Toyota Camry" autocomplete="off" />
+      </div>
+      <div class="field-group">
+        <label for="filterCategory">Category</label>
+        <select id="filterCategory"><option value="">All categories</option></select>
+      </div>
+      <div class="field-group">
+        <label for="filterYear">Year</label>
+        <select id="filterYear"><option value="">All years</option></select>
+      </div>
+      <div class="field-group">
+        <label for="filterCondition">Condition</label>
+        <select id="filterCondition"><option value="">All conditions</option></select>
+      </div>
+      <div class="field-group">
+        <label for="filterBudget">Budget (₦)</label>
+        <select id="filterBudget">
+          <option value="">Any budget</option>
+          <option value="0-10000000">Under ₦10M</option>
+          <option value="10000000-20000000">₦10M – ₦20M</option>
+          <option value="20000000-35000000">₦20M – ₦35M</option>
+          <option value="35000000-999999999">₦35M+</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="inv-grid" id="invGrid" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Our Services</span>
+      <h2 class="display-lg">More Than Just Car Sales</h2>
+      <p class="lead">From sourcing and importation enquiries to trade-ins and inspections — we help you move forward with confidence.</p>
+    </div>
+
+    <!-- Quality Cars -->
+    <div class="service reveal" id="quality">
+      <div class="svc-media">
+        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=70"
+             alt="Premium car photography representing quality vehicle options" loading="lazy" />
+      </div>
+      <div class="svc-body">
+        <span class="eyebrow">Quality Cars</span>
+        <h3>Find Quality Cars for Your Next Journey</h3>
+        <p>Explore quality vehicle options and contact Olasco Dealership to discuss available cars, vehicle details, and purchasing arrangements.</p>
+        <a href="#inventory" class="btn btn-gold">Explore Cars</a>
+      </div>
+    </div>
+
+    <!-- Sourcing -->
+    <div class="service flip reveal" id="sourcing">
+      <div class="svc-media">
+        <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1200&q=70"
+             alt="Automotive photography representing vehicle sourcing" loading="lazy" />
+      </div>
+      <div class="svc-body">
+        <span class="eyebrow">Vehicle Sourcing</span>
+        <h3>We Help You Source Your Preferred Vehicle</h3>
+        <p>Looking for a particular make, model, year, or specification? Share your requirements with Olasco Dealership to discuss vehicle sourcing options.</p>
+        <button class="btn btn-dark" data-scroll="#sourcingForm">Source My Car</button>
+      </div>
+    </div>
+
+    <!-- Importation -->
+    <div class="service reveal" id="importation">
+      <div class="svc-media">
+        <img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1200&q=70"
+             alt="Vehicle transport and automotive logistics imagery" loading="lazy" />
+      </div>
+      <div class="svc-body">
+        <span class="eyebrow">Vehicle Importation</span>
+        <h3>Your Preferred Vehicle, Sourced for You</h3>
+        <p>Enquire about vehicle importation services and discuss your preferred vehicle, sourcing requirements, estimated costs, and applicable arrangements with Olasco Dealership.</p>
+        <a href="https://wa.me/2349131502531?text=Hello%20Olasco%20Dealership%2C%20I%27m%20interested%20in%20vehicle%20importation.%20Please%20explain%20the%20process%2C%20available%20options%2C%20estimated%20costs%2C%20and%20requirements."
+           target="_blank" rel="noopener noreferrer" class="btn btn-gold">Enquire About Importation</a>
+      </div>
+    </div>
+
+    <!-- Trade-in -->
+    <div class="service flip reveal" id="tradein">
+      <div class="svc-media">
+        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=70"
+             alt="Two cars representing trade-in options" loading="lazy" />
+      </div>
+      <div class="svc-body">
+        <span class="eyebrow">Trade-ins</span>
+        <h3>Trade Your Current Car for Another Ride</h3>
+        <p>Interested in changing your vehicle? Contact Olasco Dealership to discuss your current car and your preferred replacement vehicle. No valuation is confirmed until your vehicle has been assessed.</p>
+        <button class="btn btn-dark" data-scroll="#tradeinForm">Discuss a Trade-in</button>
+      </div>
+    </div>
+
+    <!-- Inspection -->
+    <div class="service reveal" id="inspection">
+      <div class="svc-media">
+        <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=70"
+             alt="Professional vehicle inspection imagery" loading="lazy" />
+      </div>
+      <div class="svc-body">
+        <span class="eyebrow">Vehicle Inspections</span>
+        <h3>Know More About the Car Before You Buy</h3>
+        <p>Vehicle inspections can help customers discuss the condition and details of a vehicle before making a purchasing decision. Contact Olasco Dealership to enquire about inspection services and available arrangements.</p>
+        <button class="btn btn-gold" data-scroll="#inspectionForm">Enquire About Inspection</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="section why" id="about">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">Why Olasco</span>
+      <h2 class="display-lg">Auto Deals. Drive with Trust.</h2>
+      <p class="lead">We focus on clear communication and a straightforward process — so you can move forward with confidence.</p>
+    </div>
+    <div class="values">
+      <div class="value reveal">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17h14M5 17a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm14 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM3 17V9l4-5h10l4 5v8"/></svg></div>
+        <h3>Quality Car Dealership</h3>
+        <p>Explore quality vehicle options and discuss available cars, details, and purchasing arrangements.</p>
+      </div>
+      <div class="value reveal">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div>
+        <h3>Vehicle Sourcing Enquiries</h3>
+        <p>Share the make, model, year, and specifications you want and discuss sourcing possibilities.</p>
+      </div>
+      <div class="value reveal">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7h13l5 5v5h-3M3 7v10h3m0 0a2 2 0 1 0 4 0m-4 0a2 2 0 1 1 4 0m6 0a2 2 0 1 0 4 0m-4 0a2 2 0 1 1 4 0"/></svg></div>
+        <h3>Importation Assistance</h3>
+        <p>Discuss your preferred vehicle, sourcing requirements, estimated costs, and applicable arrangements.</p>
+      </div>
+      <div class="value reveal">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 3l4 4-4 4M7 21l-4-4 4-4M21 7H9m6 10H3"/></svg></div>
+        <h3>Trade-in Opportunities</h3>
+        <p>Discuss your current vehicle and your preferred replacement. Valuations follow assessment.</p>
+      </div>
+      <div class="value reveal">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M12 3l8 4v6c0 5-3.5 8-8 8s-8-3-8-8V7z"/></svg></div>
+        <h3>Inspection Enquiries</h3>
+        <p>Ask about inspection options and the information you need before a purchasing decision.</p>
+      </div>
+      <div class="value reveal">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.7A8.5 8.5 0 1 1 21 11.5z"/></svg></div>
+        <h3>Direct WhatsApp Communication</h3>
+        <p>Every service links straight to WhatsApp so your enquiry reaches us quickly and clearly.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="section" id="how">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">How It Works</span>
+      <h2 class="display-lg">A Simple, Four-Step Process</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><div class="num">01</div><h3>Tell Us What You Need</h3><p>Choose a car, share your preferred vehicle specifications, or select a service.</p></div>
+      <div class="step reveal"><div class="num">02</div><h3>Make Your Enquiry</h3><p>Contact Olasco Dealership through WhatsApp or the website enquiry form.</p></div>
+      <div class="step reveal"><div class="num">03</div><h3>Discuss Your Options</h3><p>Review available vehicles, sourcing arrangements, trade-in possibilities, or inspection requirements.</p></div>
+      <div class="step reveal"><div class="num">04</div><h3>Confirm the Details</h3><p>Proceed after the vehicle details, pricing, transaction terms, and applicable arrangements have been confirmed.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOURCING ENQUIRY ============ -->
+<section class="section enq" id="sourcingForm">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Can't Find Your Dream Car?</span>
+      <h2 class="display-lg">Let Us Help.</h2>
+      <p class="lead">Tell us the vehicle you are looking for, including its make, model, preferred year, budget, and specifications. Contact Olasco Dealership to discuss sourcing possibilities.</p>
+    </div>
+    <form class="form-card reveal" id="sourceForm" novalidate>
+      <div class="form-grid">
+        <div><label class="label" for="srcName">Full name *</label><input class="field" id="srcName" name="name" required autocomplete="name" /><p class="error-text">Please enter your name.</p></div>
+        <div><label class="label" for="srcPhone">WhatsApp number *</label><input class="field" id="srcPhone" name="phone" type="tel" required placeholder="e.g. 08012345678" autocomplete="tel" /><p class="error-text">Please enter a valid WhatsApp number.</p></div>
+        <div><label class="label" for="srcMake">Preferred make *</label><input class="field" id="srcMake" name="make" required placeholder="e.g. Toyota" /><p class="error-text">Please enter a make.</p></div>
+        <div><label class="label" for="srcModel">Preferred model *</label><input class="field" id="srcModel" name="model" required placeholder="e.g. Camry" /><p class="error-text">Please enter a model.</p></div>
+        <div><label class="label" for="srcYear">Preferred year</label><input class="field" id="srcYear" name="year" type="number" min="1980" max="2100" placeholder="e.g. 2020" /></div>
+        <div><label class="label" for="srcType">Vehicle type</label>
+          <select class="field" id="srcType" name="type">
+            <option value="">Select type</option><option>Luxury Cars</option><option>SUVs</option><option>Sedans</option><option>Family Cars</option><option>Imported Vehicles</option>
+          </select>
+        </div>
+        <div><label class="label" for="srcBudget">Budget range</label><input class="field" id="srcBudget" name="budget" placeholder="e.g. ₦15M – ₦20M" /></div>
+        <div><label class="label" for="srcCond">Preferred condition</label>
+          <select class="field" id="srcCond" name="condition">
+            <option value="">Select condition</option><option>Brand New</option><option>Foreign Used</option><option>Nigerian Used</option>
+          </select>
+        </div>
+        <div class="full"><label class="label" for="srcSpecs">Additional specifications</label><textarea class="field" id="srcSpecs" name="specs" placeholder="Colour, transmission, fuel type, or other requirements"></textarea></div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:24px">
+        <button type="submit" class="btn btn-gold">Submit Sourcing Enquiry</button>
+      </div>
+      <p class="form-note">Submitting opens WhatsApp with your enquiry pre-filled so you can review and send it directly.</p>
+      <div class="form-success" id="sourceSuccess">Opening WhatsApp with your sourcing enquiry…</div>
+    </form>
+  </div>
+</section>
+
+<!-- ============ TRADE-IN ENQUIRY ============ -->
+<section class="section" id="tradeinForm">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Ready for Your Next Car?</span>
+      <h2 class="display-lg">Start a Trade-in Enquiry</h2>
+      <p class="lead">Share information about your current vehicle and the car you would like to get. Olasco Dealership can discuss potential trade-in options with you. No valuation is confirmed until your vehicle is assessed.</p>
+    </div>
+    <form class="form-card reveal" id="tradeForm" novalidate>
+      <div class="form-grid">
+        <div><label class="label" for="trName">Customer name *</label><input class="field" id="trName" name="name" required autocomplete="name" /><p class="error-text">Please enter your name.</p></div>
+        <div><label class="label" for="trPhone">WhatsApp number *</label><input class="field" id="trPhone" name="phone" type="tel" required placeholder="e.g. 08012345678" autocomplete="tel" /><p class="error-text">Please enter a valid WhatsApp number.</p></div>
+        <div><label class="label" for="trCar">Current car make & model *</label><input class="field" id="trCar" name="car" required placeholder="e.g. Honda Accord" /><p class="error-text">Please enter your current car.</p></div>
+        <div><label class="label" for="trYear">Current car year</label><input class="field" id="trYear" name="year" type="number" min="1980" max="2100" placeholder="e.g. 2015" /></div>
+        <div><label class="label" for="trMileage">Current mileage (if known)</label><input class="field" id="trMileage" name="mileage" placeholder="e.g. 90,000 km" /></div>
+        <div><label class="label" for="trCond">Current vehicle condition</label>
+          <select class="field" id="trCond" name="condition">
+            <option value="">Select condition</option><option>Excellent</option><option>Good</option><option>Fair</option><option>Needs repair</option>
+          </select>
+        </div>
+        <div class="full"><label class="label" for="trReplace">Preferred replacement vehicle</label><input class="field" id="trReplace" name="replacement" placeholder="e.g. Toyota Highlander 2021" /></div>
+        <div class="full"><label class="label" for="trDetails">Additional details</label><textarea class="field" id="trDetails" name="details" placeholder="Anything else we should know about your current car or preferences"></textarea></div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:24px">
+        <button type="submit" class="btn btn-dark">Start Trade-in Enquiry</button>
+      </div>
+      <p class="form-note">Submitting opens WhatsApp with your enquiry pre-filled so you can review and send it directly.</p>
+      <div class="form-success" id="tradeSuccess">Opening WhatsApp with your trade-in enquiry…</div>
+    </form>
+  </div>
+</section>
+
+<!-- ============ INSPECTION ENQUIRY ============ -->
+<section class="section enq" id="inspectionForm">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Make a More Informed Car Purchase</span>
+      <h2 class="display-lg">Request Inspection Information</h2>
+      <p class="lead">Interested in inspecting a vehicle before buying? Contact Olasco Dealership to discuss inspection arrangements and the information you need.</p>
+    </div>
+    <form class="form-card reveal" id="inspectForm" novalidate>
+      <div class="form-grid">
+        <div><label class="label" for="inName">Customer name *</label><input class="field" id="inName" name="name" required autocomplete="name" /><p class="error-text">Please enter your name.</p></div>
+        <div><label class="label" for="inPhone">WhatsApp number *</label><input class="field" id="inPhone" name="phone" type="tel" required placeholder="e.g. 08012345678" autocomplete="tel" /><p class="error-text">Please enter a valid WhatsApp number.</p></div>
+        <div><label class="label" for="inMake">Vehicle make & model *</label><input class="field" id="inMake" name="car" required placeholder="e.g. Lexus RX 350" /><p class="error-text">Please enter the vehicle.</p></div>
+        <div><label class="label" for="inYear">Vehicle year</label><input class="field" id="inYear" name="year" type="number" min="1980" max="2100" placeholder="e.g. 2019" /></div>
+        <div class="full"><label class="label" for="inLoc">Vehicle location (if known)</label><input class="field" id="inLoc" name="location" placeholder="e.g. Lekki, Lagos" /></div>
+        <div class="full"><label class="label" for="inMsg">Inspection enquiry message *</label><textarea class="field" id="inMsg" name="message" required placeholder="What would you like to know about the vehicle or inspection arrangement?"></textarea><p class="error-text">Please add a short message.</p></div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:24px">
+        <button type="submit" class="btn btn-gold">Request Inspection Information</button>
+      </div>
+      <p class="form-note">Submitting opens WhatsApp with your enquiry pre-filled so you can review and send it directly.</p>
+      <div class="form-success" id="inspectSuccess">Opening WhatsApp with your inspection enquiry…</div>
+    </form>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section" id="reviews">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Customer Feedback</span>
+      <h2 class="display-lg">What Our Customers Say</h2>
+    </div>
+    <div class="reviews-empty reveal">
+      <div class="stars" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+      </div>
+      <h3>Genuine Reviews Coming Soon</h3>
+      <p>We believe in publishing only real, verified customer feedback. This space will feature genuine reviews once they are supplied and authorised.</p>
+      <p style="margin-top:14px"><a class="btn btn-outline-dark btn-sm" href="#contact">Share Your Experience</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq" style="background:var(--mist)">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">FAQ</span>
+      <h2 class="display-lg">Frequently Asked Questions</h2>
+    </div>
+    <div style="max-width:820px;margin:0 auto" id="faqList">
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false"><span>What types of cars does Olasco Dealership offer?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>The dealership focuses on quality cars. Contact the business to confirm the vehicles currently available.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false"><span>Can Olasco Dealership source a specific vehicle for me?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>You can share your preferred make, model, year, and budget to discuss vehicle sourcing options.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false"><span>Do you provide vehicle importation services?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Vehicle importation is one of the business's stated services. Contact Olasco Dealership to confirm the process, costs, and applicable requirements.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false"><span>Can I trade in my current vehicle?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>You can enquire about trading in your vehicle and discuss the available options with the dealership.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false"><span>Do you offer vehicle inspection services?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Vehicle inspection enquiries are welcome. Contact Olasco Dealership to confirm the available arrangements.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false"><span>How can I enquire about a car?</span><span class="faq-icon">+</span></button>
+        <div class="faq-a"><p>Use the vehicle enquiry button or contact the dealership directly through WhatsApp.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="reveal">
+        <span class="eyebrow">Get in Touch</span>
+        <h2 class="display-lg">Let's Find Your Next Ride</h2>
+        <p class="lead">Whether you're looking for a quality car, sourcing a specific vehicle, exploring importation, trading in your current car, or enquiring about an inspection, Olasco Dealership is ready to discuss your needs.</p>
+      </div>
+      <div class="contact-card reveal">
+        <div class="row"><span class="k">Business</span><span class="v">Olasco Dealership Lagos Nig</span></div>
+        <div class="row"><span class="k">Tagline</span><span class="v">Auto Deals. Drive with Trust.</span></div>
+        <div class="row"><span class="k">WhatsApp</span><span class="v">09131502531</span></div>
+        <a href="https://wa.me/2349131502531?text=Hello%20Olasco%20Dealership%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20enquire%20about%20your%20automotive%20services."
+           target="_blank" rel="noopener noreferrer" class="btn btn-wa">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-about">
+        <div class="brand">
+          <span class="brand-mark">O</span>
+          <span class="brand-text"><b style="color:#fff">OLASCO</b><small>Dealership</small></span>
+        </div>
+        <p>Olasco Dealership Lagos Nig — quality cars, vehicle sourcing, importation enquiries, trade-ins, and vehicle inspections. Auto Deals. Drive with Trust.</p>
+        <a href="https://wa.me/2349131502531?text=Hello%20Olasco%20Dealership%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20enquire%20about%20your%20automotive%20services."
+           target="_blank" rel="noopener noreferrer" class="foot-wa">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          09131502531
+        </a>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#inventory">Available Cars</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#quality">Quality Cars</a></li>
+          <li><a href="#sourcing">Vehicle Sourcing</a></li>
+          <li><a href="#importation">Importation</a></li>
+          <li><a href="#tradein">Trade-ins</a></li>
+          <li><a href="#inspection">Inspections</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#categories">Luxury Cars</a></li>
+          <li><a href="#categories">SUVs</a></li>
+          <li><a href="#categories">Sedans</a></li>
+          <li><a href="#categories">Family Cars</a></li>
+          <li><a href="#categories">Imported Vehicles</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> Olasco Dealership Lagos Nig. All rights reserved.</span>
+      <span><a href="#home">Back to top ↑</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ FLOATING WHATSAPP ============ -->
+<a class="float-wa" id="floatWa" href="https://wa.me/2349131502531?text=Hello%20Olasco%20Dealership%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20enquire%20about%20your%20automotive%20services."
+   target="_blank" rel="noopener noreferrer" aria-label="Chat with Olasco Dealership on WhatsApp">
+  <span class="ping" aria-hidden="true"></span>
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="txt">Chat with Us</span>
+</a>
+
+<!-- ============ VEHICLE MODAL ============ -->
+<div class="modal" id="vehicleModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="Close vehicle details">×</button>
+    <div class="gallery-main"><img id="modalImg" src="" alt="" /></div>
+    <div class="gallery-thumbs" id="modalThumbs"></div>
+    <div class="modal-body">
+      <div class="badges" id="modalBadges"></div>
+      <h3 id="modalTitle"></h3>
+      <span class="cat" id="modalCat"></span>
+      <div class="modal-price" id="modalPrice"></div>
+      <div class="modal-specs" id="modalSpecs"></div>
+      <div class="modal-actions" id="modalActions"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var WA_NUMBER = "2349131502531";
+  function waLink(msg){ return "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(msg); }
+  function esc(s){ return String(s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+
+  // ---------- DATA ----------
+  var CATEGORIES = [
+    { name:"Luxury Cars", blurb:"Premium executive cars for those who expect more.", image:"https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=900&q=70" },
+    { name:"SUVs", blurb:"Modern SUVs built for comfort and capability.", image:"https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=900&q=70" },
+    { name:"Sedans", blurb:"Stylish, comfortable sedans for daily driving.", image:"https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=70" },
+    { name:"Family Cars", blurb:"Practical, spacious vehicles for the whole family.", image:"https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=70" },
+    { name:"Imported Vehicles", blurb:"Sourced and imported vehicle options.", image:"https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=900&q=70" }
+  ];
+
+  // DEMONSTRATION listings — clearly labelled, must be replaced before publishing.
+  var VEHICLES = [
+    { id:"demo-toyota-camry-2020", make:"Toyota", model:"Camry", year:2020, category:"Sedans", condition:"Foreign Used", mileageKm:48000, transmission:"Automatic", fuel:"Petrol", priceNaira:18500000, available:true, isDemo:true,
+      images:["https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=70","https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=70"] },
+    { id:"demo-lexus-rx350-2019", make:"Lexus", model:"RX 350", year:2019, category:"SUVs", condition:"Foreign Used", mileageKm:62000, transmission:"Automatic", fuel:"Petrol", priceNaira:32000000, available:true, isDemo:true,
+      images:["https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=70","https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=70"] },
+    { id:"demo-mercedes-e350-2021", make:"Mercedes-Benz", model:"E 350", year:2021, category:"Luxury Cars", condition:"Brand New", mileageKm:0, transmission:"Automatic", fuel:"Petrol", priceNaira:null, available:true, isDemo:true,
+      images:["https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=70","https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=70"] },
+    { id:"demo-honda-crv-2018", make:"Honda", model:"CR-V", year:2018, category:"Family Cars", condition:"Nigerian Used", mileageKm:95000, transmission:"Automatic", fuel:"Petrol", priceNaira:12500000, available:false, isDemo:true,
+      images:["https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=70","https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=70"] },
+    { id:"demo-toyota-highlander-2022", make:"Toyota", model:"Highlander", year:2022, category:"Imported Vehicles", condition:"Foreign Used", mileageKm:21000, transmission:"Automatic", fuel:"Hybrid", priceNaira:null, available:true, isDemo:true,
+      images:["https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1200&q=70","https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=70"] },
+    { id:"demo-hyundai-elantra-2020", make:"Hyundai", model:"Elantra", year:2020, category:"Sedans", condition:"Foreign Used", mileageKm:54000, transmission:"Automatic", fuel:"Petrol", priceNaira:14200000, available:true, isDemo:true,
+      images:["https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=70","https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=70"] }
+  ];
+
+  function formatNaira(n){
+    if(n == null) return "Price on request";
+    try { return new Intl.NumberFormat("en-NG",{style:"currency",currency:"NGN",maximumFractionDigits:0}).format(n); }
+    catch(e){ return "₦" + n.toLocaleString(); }
+  }
+  function title(v){ return v.year + " " + v.make + " " + v.model; }
+  function vehicleEnquiry(v){ return "Hello Olasco Dealership, I'm interested in the " + title(v) + ". Please confirm availability, price, condition, and additional details."; }
+
+  // ---------- RENDER CATEGORIES ----------
+  var catGrid = document.getElementById("catGrid");
+  catGrid.innerHTML = CATEGORIES.map(function(c){
+    return '<a class="cat-card reveal" href="#inventory" aria-label="Browse ' + esc(c.name) + '">'
+      + '<img src="' + esc(c.image) + '" alt="' + esc(c.name) + ' category imagery" loading="lazy" />'
+      + '<div class="cat-body"><h3>' + esc(c.name) + '</h3><p>' + esc(c.blurb) + '</p>'
+      + '<span class="cat-link">Browse</span></div></a>';
+  }).join("");
+
+  // ---------- INVENTORY FILTER OPTIONS ----------
+  var fCat = document.getElementById("filterCategory");
+  var fYear = document.getElementById("filterYear");
+  var fCond = document.getElementById("filterCondition");
+  var cats = {}, years = {}, conds = {};
+  VEHICLES.forEach(function(v){ cats[v.category]=1; years[v.year]=1; conds[v.condition]=1; });
+  Object.keys(cats).sort().forEach(function(c){ fCat.innerHTML += '<option value="'+esc(c)+'">'+esc(c)+'</option>'; });
+  Object.keys(years).sort(function(a,b){return b-a;}).forEach(function(y){ fYear.innerHTML += '<option value="'+y+'">'+y+'</option>'; });
+  Object.keys(conds).sort().forEach(function(c){ fCond.innerHTML += '<option value="'+esc(c)+'">'+esc(c)+'</option>'; });
+
+  // ---------- RENDER INVENTORY ----------
+  var invGrid = document.getElementById("invGrid");
+  var searchEl = document.getElementById("searchInput");
+  var budgetEl = document.getElementById("filterBudget");
+
+  function filtered(){
+    var q = (searchEl.value || "").trim().toLowerCase();
+    var c = fCat.value, y = fYear.value, cd = fCond.value, b = budgetEl.value;
+    return VEHICLES.filter(function(v){
+      if(q && (v.make + " " + v.model).toLowerCase().indexOf(q) === -1) return false;
+      if(c && v.category !== c) return false;
+      if(y && String(v.year) !== y) return false;
+      if(cd && v.condition !== cd) return false;
+      if(b){
+        var parts = b.split("-").map(Number);
+        var lo = parts[0], hi = parts[1];
+        if(v.priceNaira == null) return false;
+        if(v.priceNaira < lo || v.priceNaira > hi) return false;
+      }
+      return true;
+    });
+  }
+
+  function renderInventory(){
+    var list = filtered();
+    if(!list.length){
+      invGrid.innerHTML = '<div class="empty-state"><h3>No matching vehicles right now</h3>'
+        + '<p>There are no listings matching your filters. Try adjusting your search, or send us your requirements and we will discuss sourcing options with you.</p>'
+        + '<a class="btn btn-gold" href="#sourcingForm">Tell Us What You Need</a></div>';
+      return;
+    }
+    invGrid.innerHTML = list.map(function(v){
+      var img = v.images && v.images[0] ? v.images[0] : "";
+      var badges = '<div class="badges">';
+      if(v.isDemo) badges += '<span class="badge badge-demo">Demonstration</span>';
+      badges += '<span class="badge badge-cond">' + esc(v.condition) + '</span></div>';
+      var unavail = v.available ? "" : '<span class="badge badge-unavail">Unavailable</span>';
+      var mileage = v.mileageKm != null ? (v.mileageKm === 0 ? "0 km" : v.mileageKm.toLocaleString() + " km") : "—";
+      return '<article class="vehicle reveal" data-id="' + esc(v.id) + '">'
+        + '<div class="thumb"><img src="' + esc(img) + '" alt="' + esc(title(v)) + ' vehicle photograph" loading="lazy" />' + badges + unavail + '</div>'
+        + '<div class="v-body">'
+        + '<span class="v-cat">' + esc(v.category) + '</span>'
+        + '<h3 class="v-title">' + esc(title(v)) + '</h3>'
+        + '<div class="specs">'
+        + '<span>Year: <b>' + v.year + '</b></span>'
+        + '<span>Trans: <b>' + esc(v.transmission) + '</b></span>'
+        + '<span>Fuel: <b>' + esc(v.fuel) + '</b></span>'
+        + '<span>Mileage: <b>' + mileage + '</b></span>'
+        + '</div>'
+        + '<div class="v-price">' + esc(formatNaira(v.priceNaira)) + '<small>' + (v.available ? "Available" : "Currently unavailable") + '</small></div>'
+        + '<div class="v-actions">'
+        + '<button class="btn btn-outline-dark" data-details="' + esc(v.id) + '">View Details</button>'
+        + '<a class="btn btn-wa" href="' + esc(waLink(vehicleEnquiry(v))) + '" target="_blank" rel="noopener noreferrer">WhatsApp</a>'
+        + '</div></div></article>';
+    }).join("");
+    attachReveal();
+  }
+
+  [searchEl, fCat, fYear, fCond, budgetEl].forEach(function(el){
+    el.addEventListener("input", renderInventory);
+    el.addEventListener("change", renderInventory);
+  });
+
+  // ---------- VEHICLE MODAL ----------
+  var modal = document.getElementById("vehicleModal");
+  var modalImg = document.getElementById("modalImg");
+  var modalThumbs = document.getElementById("modalThumbs");
+  var modalBadges = document.getElementById("modalBadges");
+  var modalTitle = document.getElementById("modalTitle");
+  var modalCat = document.getElementById("modalCat");
+  var modalPrice = document.getElementById("modalPrice");
+  var modalSpecs = document.getElementById("modalSpecs");
+  var modalActions = document.getElementById("modalActions");
+  var lastFocus = null;
+
+  function openModal(id){
+    var v = VEHICLES.filter(function(x){ return x.id === id; })[0];
+    if(!v) return;
+    lastFocus = document.activeElement;
+    var imgs = v.images && v.images.length ? v.images : [""];
+    modalImg.src = imgs[0];
+    modalImg.alt = title(v) + " vehicle photograph";
+    modalThumbs.innerHTML = imgs.map(function(src, i){
+      return '<img src="' + esc(src) + '" alt="' + esc(title(v)) + ' image ' + (i+1) + '" data-i="' + i + '" class="' + (i===0?"active":"") + '" />';
+    }).join("");
+    modalThumbs.querySelectorAll("img").forEach(function(t){
+      t.addEventListener("click", function(){
+        modalImg.src = t.src;
+        modalThumbs.querySelectorAll("img").forEach(function(x){ x.classList.remove("active"); });
+        t.classList.add("active");
+      });
+    });
+    modalBadges.innerHTML = (v.isDemo ? '<span class="badge badge-demo">Demonstration</span>' : "")
+      + '<span class="badge badge-cond">' + esc(v.condition) + '</span>'
+      + (v.available ? "" : '<span class="badge badge-unavail">Unavailable</span>');
+    modalTitle.textContent = title(v);
+    modalCat.textContent = v.category;
+    modalPrice.innerHTML = esc(formatNaira(v.priceNaira)) + '<small>' + (v.available ? "Available" : "Currently unavailable") + '</small>';
+    var mileage = v.mileageKm != null ? (v.mileageKm === 0 ? "0 km" : v.mileageKm.toLocaleString() + " km") : "—";
+    modalSpecs.innerHTML =
+      '<div><span class="k">Year</span><span class="v">' + v.year + '</span></div>'
+      + '<div><span class="k">Condition</span><span class="v">' + esc(v.condition) + '</span></div>'
+      + '<div><span class="k">Transmission</span><span class="v">' + esc(v.transmission) + '</span></div>'
+      + '<div><span class="k">Fuel</span><span class="v">' + esc(v.fuel) + '</span></div>'
+      + '<div><span class="k">Mileage</span><span class="v">' + mileage + '</span></div>'
+      + '<div><span class="k">Category</span><span class="v">' + esc(v.category) + '</span></div>';
+    modalActions.innerHTML = '<a class="btn btn-wa" href="' + esc(waLink(vehicleEnquiry(v))) + '" target="_blank" rel="noopener noreferrer">Enquire on WhatsApp</a>'
+      + '<a class="btn btn-outline-dark" href="#sourcingForm" data-close="1">Source Similar</a>';
+    modal.classList.add("open");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+    document.getElementById("modalClose").focus();
+    modalActions.querySelector('[data-close]').addEventListener("click", closeModal);
+  }
+  function closeModal(){
+    modal.classList.remove("open");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+    if(lastFocus) lastFocus.focus();
+  }
+  document.getElementById("modalClose").addEventListener("click", closeModal);
+  modal.addEventListener("click", function(e){ if(e.target === modal) closeModal(); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape" && modal.classList.contains("open")) closeModal(); });
+
+  invGrid.addEventListener("click", function(e){
+    var btn = e.target.closest("[data-details]");
+    if(btn){ openModal(btn.getAttribute("data-details")); }
+  });
+
+  renderInventory();
+
+  // ---------- NAV / HAMBURGER ----------
+  var navbar = document.getElementById("navbar");
+  var hamburger = document.getElementById("hamburger");
+  var mobileMenu = document.getElementById("mobileMenu");
+  window.addEventListener("scroll", function(){ navbar.classList.toggle("scrolled", window.scrollY > 24); }, {passive:true});
+  hamburger.addEventListener("click", function(){
+    var open = mobileMenu.classList.toggle("open");
+    hamburger.classList.toggle("open", open);
+    hamburger.setAttribute("aria-expanded", open ? "true" : "false");
+    mobileMenu.setAttribute("aria-hidden", open ? "false" : "true");
+    document.body.style.overflow = open ? "hidden" : "";
+  });
+  mobileMenu.querySelectorAll("a").forEach(function(a){
+    a.addEventListener("click", function(){
+      mobileMenu.classList.remove("open");
+      hamburger.classList.remove("open");
+      hamburger.setAttribute("aria-expanded","false");
+      mobileMenu.setAttribute("aria-hidden","true");
+      document.body.style.overflow = "";
+    });
+  });
+
+  // Scroll buttons
+  document.querySelectorAll("[data-scroll]").forEach(function(b){
+    b.addEventListener("click", function(){
+      var t = document.querySelector(b.getAttribute("data-scroll"));
+      if(t) t.scrollIntoView({behavior:"smooth", block:"start"});
+    });
+  });
+
+  // ---------- FLOATING WA ----------
+  setTimeout(function(){ document.getElementById("floatWa").classList.add("show"); }, 900);
+
+  // ---------- FAQ ----------
+  document.querySelectorAll(".faq-q").forEach(function(q){
+    q.addEventListener("click", function(){
+      var item = q.parentElement;
+      var ans = item.querySelector(".faq-a");
+      var open = item.classList.contains("open");
+      document.querySelectorAll(".faq-item.open").forEach(function(o){
+        o.classList.remove("open");
+        o.querySelector(".faq-q").setAttribute("aria-expanded","false");
+        o.querySelector(".faq-a").style.maxHeight = null;
+      });
+      if(!open){
+        item.classList.add("open");
+        q.setAttribute("aria-expanded","true");
+        ans.style.maxHeight = ans.scrollHeight + "px";
+      }
+    });
+  });
+
+  // ---------- FORM HELPERS ----------
+  function validPhone(s){ return /^[0-9+\s()-]{7,20}$/.test(s); }
+  function markInvalid(field, bad){ var g = field.closest("div"); if(g) g.classList.toggle("invalid", bad); return !bad; }
+
+  function bindForm(formId, successId, buildMessage, requiredIds){
+    var form = document.getElementById(formId);
+    form.addEventListener("submit", function(e){
+      e.preventDefault();
+      var ok = true;
+      requiredIds.forEach(function(id){
+        var el = document.getElementById(id);
+        var bad = !el.value.trim() || (el.type === "tel" && !validPhone(el.value)) || (el.tagName === "TEXTAREA" && el.value.trim().length < 4);
+        if(!markInvalid(el, bad)) ok = false;
+      });
+      if(!ok){ return; }
+      var msg = buildMessage();
+      document.getElementById(successId).classList.add("show");
+      window.open(waLink(msg), "_blank", "noopener");
+      form.reset();
+      requiredIds.forEach(function(id){ markInvalid(document.getElementById(id), false); });
+      setTimeout(function(){ document.getElementById(successId).classList.remove("show"); }, 4000);
+    });
+    form.querySelectorAll(".field").forEach(function(el){
+      el.addEventListener("input", function(){ markInvalid(el, false); });
+    });
+  }
+
+  // Sourcing form
+  bindForm("sourceForm", "sourceSuccess", function(){
+    var name = document.getElementById("srcName").value.trim();
+    var phone = document.getElementById("srcPhone").value.trim();
+    var make = document.getElementById("srcMake").value.trim();
+    var model = document.getElementById("srcModel").value.trim();
+    var year = document.getElementById("srcYear").value.trim();
+    var type = document.getElementById("srcType").value;
+    var budget = document.getElementById("srcBudget").value.trim();
+    var cond = document.getElementById("srcCond").value;
+    var specs = document.getElementById("srcSpecs").value.trim();
+    var lines = [
+      "Hello Olasco Dealership, I would like to source a vehicle.",
+      "Name: " + name,
+      "WhatsApp: " + phone,
+      "Preferred car: " + make + " " + model + (year ? " (" + year + ")" : ""),
+      type ? "Vehicle type: " + type : "",
+      budget ? "Budget: " + budget : "",
+      cond ? "Preferred condition: " + cond : "",
+      specs ? "Additional specifications: " + specs : "",
+      "Please let me know the available options."
+    ].filter(Boolean);
+    return lines.join("\n");
+  }, ["srcName","srcPhone","srcMake","srcModel"]);
+
+  // Trade-in form
+  bindForm("tradeForm", "tradeSuccess", function(){
+    var name = document.getElementById("trName").value.trim();
+    var phone = document.getElementById("trPhone").value.trim();
+    var car = document.getElementById("trCar").value.trim();
+    var year = document.getElementById("trYear").value.trim();
+    var mileage = document.getElementById("trMileage").value.trim();
+    var cond = document.getElementById("trCond").value;
+    var repl = document.getElementById("trReplace").value.trim();
+    var details = document.getElementById("trDetails").value.trim();
+    var lines = [
+      "Hello Olasco Dealership, I'm interested in trading in my current car.",
+      "Name: " + name,
+      "WhatsApp: " + phone,
+      "Current car: " + car + (year ? " (" + year + ")" : ""),
+      mileage ? "Mileage: " + mileage : "",
+      cond ? "Condition: " + cond : "",
+      repl ? "Preferred replacement: " + repl : "",
+      details ? "Additional details: " + details : "",
+      "Please let me know the process and what vehicle details you need."
+    ].filter(Boolean);
+    return lines.join("\n");
+  }, ["trName","trPhone","trCar"]);
+
+  // Inspection form
+  bindForm("inspectForm", "inspectSuccess", function(){
+    var name = document.getElementById("inName").value.trim();
+    var phone = document.getElementById("inPhone").value.trim();
+    var car = document.getElementById("inMake").value.trim();
+    var year = document.getElementById("inYear").value.trim();
+    var loc = document.getElementById("inLoc").value.trim();
+    var message = document.getElementById("inMsg").value.trim();
+    var lines = [
+      "Hello Olasco Dealership, I'm interested in vehicle inspection services.",
+      "Name: " + name,
+      "WhatsApp: " + phone,
+      "Vehicle: " + car + (year ? " (" + year + ")" : ""),
+      loc ? "Location: " + loc : "",
+      "Message: " + message,
+      "Please explain the available inspection options and how I can arrange one."
+    ].filter(Boolean);
+    return lines.join("\n");
+  }, ["inName","inPhone","inMake","inMsg"]);
+
+  // ---------- REVEAL ON SCROLL ----------
+  var io;
+  function attachReveal(){
+    if(!("IntersectionObserver" in window)){ document.querySelectorAll(".reveal").forEach(function(el){el.classList.add("in");}); return; }
+    if(!io){
+      io = new IntersectionObserver(function(entries){
+        entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target); } });
+      }, {threshold:0.12, rootMargin:"0px 0px -40px 0px"});
+    }
+    document.querySelectorAll(".reveal:not(.in)").forEach(function(el){ io.observe(el); });
+  }
+  attachReveal();
+
+  // ---------- YEAR ----------
+  document.getElementById("year").textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
